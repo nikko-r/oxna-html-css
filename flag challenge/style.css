@@ -1,0 +1,65 @@
+.main {
+    padding: 30px;
+}
+
+.black-stripe {
+    background-color: black;
+}
+
+.red-stripe {
+    background-color: red;
+}
+
+.red-stripe2 {
+    background-color: red;
+}
+
+.yellow-stripe {
+    background-color: yellow;
+}
+
+.blue-stripe {
+    background-color: blue;
+}
+
+.white-stripe {
+    background-color: white;
+}
+
+#french-flag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+#german-flag:hover .black-stripe {
+    background-color: red;
+}
+
+#german-flag:hover .red-stripe {
+    background-color: white;
+}
+
+#german-flag:hover .yellow-stripe {
+    background-color: green;
+}
+
+#french-flag:hover .blue-stripe {
+    background-color: green;
+}
+
+#french-flag:hover .red-stripe2 {
+    background-color: orange;
+}
+
+.white-box {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 3px solid black;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&family=Roboto:wght@300&display=swap');
+
+/*universal selector
+least specific*/
+
+* {
+    background-color: white;
+}
+
+
+/* element selector */
+
+h1 {
+    color: dodgerblue;
+}
+
+p {
+    color: goldenrod;
+}
+
+
+/* class selector 
+Classes are more specific than an
+element you can add more than 1 class
+to an element*/
+
+.penguin {
+    color: pink;
+}
+
+.font-raleway {
+    font-family: Raleway;
+    font-weight: 100;
+}
+
+.font-roboto {
+    font-family: Roboto;
+}
+
+
+/* id selector 
+id's are more specific than classes*/
+
+#unique-id {
+    border: 5px dashed salmon;
+}
+
+
+/* Pseudo Classes
+only apply if an element is in a
+certain state */
+
+button:hover {
+    transform: scale(1.5);
+}
+
+.font-raleway:hover {
+    font-weight: bold;
+}
+
+.font-roboto:active {
+    color: green;
+    text-decoration: underline;
+}
